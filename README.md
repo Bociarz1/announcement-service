@@ -52,7 +52,7 @@ $ node dist/main.js debug
 '2024-04-15 19:21'
 ```
 
-### /add
+### announcements/add
 
 #### Description
 
@@ -108,7 +108,7 @@ x-user-id: 'USER ID'
 }
 ```
 
-### /getOne/:announcementId
+### announcements/getOne/:announcementId
 
 #### Description
 
@@ -154,7 +154,7 @@ Accept: 'application/json'
 }
 ```
 
-### /getAll
+### announcements/getAll
 
 #### Description
 
@@ -192,7 +192,7 @@ Accept: 'application/json'
 }]
 ```
 
-### /removeOne/:announcementId
+### announcements/removeOne/:announcementId
 
 #### Description
 
@@ -236,7 +236,7 @@ x-user-id: 'USER ID'
 }
 ```
 
-### /updateOne/:announcementId
+### announcements/updateOne/:announcementId
 
 #### Description
 
@@ -276,7 +276,7 @@ x-user-id: 'USER ID'
 }
 ```
 
-### /filter
+### announcements/filter
 
 #### Description
 
