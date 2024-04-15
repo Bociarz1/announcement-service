@@ -275,6 +275,23 @@ x-user-id: 'USER ID'
     "address": "address",
 }
 ```
+#### Response
+
+```bash
+{
+    "creatorId": "6618068be0b8a044a65273bd",
+    "createdDate": "2024-04-15T17:43:26.245Z",
+    "title": "title",
+    "description": "description",
+    "author": "author",
+    "phoneNumber": "123456789",
+    "category": 4,
+    "tags": 1,
+    "address": "address",
+    "_id": "661d673eb3b5abc1c5a77e90",
+    "__v": 0
+}
+```
 
 ### announcements/filter
 
@@ -324,6 +341,23 @@ x-user-id: 'USER ID'
     "salaryRangeFrom": 0,
     "salaryRangeTo": 10000
 }
+```
+#### Response
+
+```bash
+[{
+    "creatorId": "6618068be0b8a044a65273bd",
+    "createdDate": "2024-04-15T17:43:26.245Z",
+    "title": "title",
+    "description": "description",
+    "author": "author",
+    "phoneNumber": "123456789",
+    "category": 4,
+    "tags": 1,
+    "address": "address",
+    "_id": "661d673eb3b5abc1c5a77e90",
+    "__v": 0
+}]
 ```
 
 
