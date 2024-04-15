@@ -131,7 +131,6 @@ x-user-id: 'USER ID'
 #### Request headers
 
 ```bash
-x-user-id: 'USER ID'
 Accept: 'text/plain'
 Accept: 'text/html'
 Accept: 'application/json'
@@ -210,7 +209,6 @@ Accept: 'application/json'
 #### Authentication
 
 ```bash
-Type: 'Bearer token'
 Bearer token: 'USER AUTH TOKEN'
 ```
 
@@ -255,7 +253,6 @@ x-user-id: 'USER ID'
 #### Authentication
 
 ```bash
-Type: 'Bearer token'
 Bearer token: 'USER AUTH TOKEN'
 ```
 
