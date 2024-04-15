@@ -65,8 +65,18 @@ $ node dist/main.js debug
 ```bash
 'POST'
 ```
+#### Authentication
 
-#### Request
+```bash
+Bearer token: 'USER AUTH TOKEN'
+```
+
+#### Request headers
+
+```bash
+x-user-id: 'USER ID'
+```
+#### Request body
 
 ```bash
 {
