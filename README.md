@@ -1,6 +1,7 @@
 ## Description
 
-Announcement application write in Nest.js Framework
+Announcement application implements in Nest.js Framework
+with Mongo db (private access to db)
 
 ## Installation
 
